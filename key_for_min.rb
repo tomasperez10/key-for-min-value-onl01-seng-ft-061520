@@ -6,12 +6,10 @@ def key_for_min_value(name_hash)
   lowest_key = nil
   
   name_hash.collect do | name, value |
-      value.to_f
-      return name
-    end
-  if name_hash == {}
-    return nil
-  else
-    
+        if name_hash == {}
+          return nil
+        else
+        end
   end
+
 end
