@@ -3,7 +3,8 @@
 
 def key_for_min_value(name_hash)
   
+  if name_hash == {}
   name_hash.collect each do | name, value |
-    if
+
   
 end
