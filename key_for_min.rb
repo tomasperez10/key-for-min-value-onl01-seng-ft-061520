@@ -8,6 +8,8 @@ def key_for_min_value(name_hash)
   else
     name_hash.collect do | name, value |
       value.to_f
+    end
+  end
 
   
 end
